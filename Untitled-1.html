@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+        inside tag overrides the outside one when using CSS
+    -->
+<head>
+    <title>New</title>
+    <strong><h1>New Page</h1></strong>
+    <!--
+         Below is an example of CSS :)
+    -->
+      <style>
+         /*use "background-color/image: color/ url(image source);" to set the background*/
+          p {
+              color: crimson;
+          }
+         /*this is how u comment in css*/
+         /*you can change it to assign it to different tags*/
+          h1{
+              color: green;
+          }
+          h1{
+              text-align: center;
+              font-size:280%
+          }
+          h4{
+              font-size: 45%
+          }
+          /*this is how you do classes*/
+          .testwow{
+              text-align: center;
+              font-size: 125%;
+          }
+          .lol{
+              text-align: center;
+          }
+          .lazy{
+              color: navy;
+          }
+          .help{
+              text-align: center;
+          }
+        /*used for id attributer*/
+          #right{
+              text-align: center;
+              color: seagreen;
+              font-size: 110%;
+          }
+          #second{
+              font-size: 110%;
+              /*changes the cursor*/
+              cursor: pointer;
+          }
+
+      </style>
+</head>
+<body>
+    <div class="testwow">
+        <p>
+          <div class="lazy"><strong>By <em>me!!!</em></strong></div>
+        </p>
+    </div>
+    <div>
+        <p>
+            HTML is kind of boring....CSS spices things up. HTML and CSS seem pretty easy to learn though. 
+        </p>
+        <p>
+                Also, trees are very important since they determine whether or not your CSS will apply to the tag.
+        </p>
+       <div class="list">
+           <h2>Today's todo</h2>
+            <ul>
+                <li>Stuff</li>
+                <li>Stuff</li>
+             </ul>
+        </div>
+    </div>
+    <div class="lol">
+        <p><button id = "right">Click me!</button><button id = "second">No! Click me!</button></p>
+    </div>
+    <div class="help">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Here is a link for some HTML elements</a>
+    </div>
+    <h4>This page was developed using HTML and css</h4>
+</body>
